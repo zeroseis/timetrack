@@ -1,0 +1,60 @@
+@import url(reset.css);
+@import url(grids.css);
+
+body { font:.8em Arial, sans-serif; background:#567155; color:#555; }
+
+p, ul, ol, table, h1, h2, h3, h4, h5, h6 { padding:10px 15px; }
+h1, h2, h3, h4, h5, h6 { padding-bottom:0; }
+th { text-align:left; }
+a { text-decoration:none; color:#567155; }
+a:hover { text-decoration:underline; }
+
+
+h1 { font-size:1.8em; color:#2b3c40; }
+
+#container { width:960px; margin:10px auto; background:#fff; }
+#header { background:#25292b; padding:0 10px; }
+#content { padding:10px; }
+#footer { background:#7e9153; color:#000; padding:0 10px; }
+
+#container-mini { width:550px; margin:20px auto; background:#fff; border:5px solid #2b3c40; padding:10px; }
+
+.datagrid { padding:10px 15px; }
+.datagrid table { border-bottom:1px solid #eee; width:100%; }
+.datagrid td, .datagrid th { border-top:1px solid #eee; padding:.7em 10px; }
+.datagrid th { border-right:1px solid #fff; color:#000;  }
+.datagrid thead { background:#eee; }
+.datagrid tbody tr:hover { background:#ffe; }
+
+.pending { background:rgba(89,2,2,.1); }
+
+.field { margin:10px 15px; border-top:1px solid #eee; padding-top:5px; }
+.field label { display:inline-block; width:150px; color:#000;  }
+
+.buttons { margin:10px 15px; background:#eee; padding:10px; }
+
+.module { background:#eee; margin:10px 15px; }
+
+.tag { padding:.1em .3em; background:#aaa; font-weight:bold; color:#fff; }
+
+.tr { text-align:right; }
+.tc { text-align:center; }
+
+.button { display:inline-block; background-color:#ccc; padding:5px 10px; }
+a.button { color:#fff; }
+a.button:hover { text-decoration:none; }
+
+.add { padding-left:28px; background:#567155 url(../img/add.png) 8px 50% no-repeat; }
+.add:hover { background-color:#7e9153; }
+
+.msg { background:#eee; margin:10px 15px; font-weight:bold; }
+.msg.ok { background-color:#E7EDDF; color:#7e9153; }
+
+.cancel { color:red; }
+a.cancel { text-decoration:underline; }
+
+.inverse { color:#fff; }
+.inverse a { color:#fc0; }
+
+.next, .exit { padding-right:20px; background-image:url(../img/arrow_right.png); background-position:100% 50%; background-repeat:no-repeat; }
+.previous { padding-left:20px; background-image:url(../img/arrow_left.png); background-position:0% 50%; background-repeat:no-repeat; }

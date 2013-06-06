@@ -1,0 +1,1 @@
+UPDATE `clients` SET `key`= HEX( CONCAT(`id`, `name`));

@@ -1,0 +1,1 @@
+ALTER TABLE  `clients` ADD  `key` VARCHAR( 13 ) NULL;
